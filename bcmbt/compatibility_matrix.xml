@@ -27,4 +27,12 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.google.bluetooth_ext</name>
+        <version>2</version>
+        <interface>
+            <name>IBluetoothCco</name>
+            <instance>default</instance>
+        </interface>        
+    </hal>
 </compatibility-matrix>
